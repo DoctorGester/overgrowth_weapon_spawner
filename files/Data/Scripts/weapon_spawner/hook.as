@@ -8,6 +8,10 @@ void Init(string levelName) {
         return;
     }
 
+    if (!FileExists(weapon)) {
+        return;
+    }
+
     for (uint i = 0; i < spawnedWeapons.length(); i++) {
         if (ObjectExists(spawnedWeapons[i])) {
             Log(info, "Deleting a spawned weapon " + spawnedWeapons[i]);

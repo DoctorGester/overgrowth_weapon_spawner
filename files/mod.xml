@@ -2,13 +2,12 @@
 <Mod>
     <Id>weapon-spawner</Id> 
     <Name>Weapon Spawner Mod</Name> 
-    <Version>1.0.2</Version>
+    <Version>1.1.0</Version>
     <Author>DoctorGester</Author>
-    <SupportedVersion>b4</SupportedVersion>
+    <SupportedVersion>*</SupportedVersion>
     <NeedsRestart>true</NeedsRestart>
     <Description>Allows you to select a weapon to spawn with on every level.</Description>
     <Category>Script</Category>
-    <Tag>B4</Tag>
     <Tag>Menu</Tag>
     <Tag>Script</Tag>
     <Tag>Weapon</Tag>
@@ -16,4 +15,6 @@
     <Thumbnail>Data/Images/weapon_spawner/thumb.jpg</Thumbnail>
     <PreviewImage>Data/Images/weapon_spawner/full.jpg</PreviewImage>
     <LevelHookFile>Data/Scripts/weapon_spawner/hook.as</LevelHookFile>
+
+    <MenuItem title="Weapon Spawner" category="play">Data/Scripts/weapon_spawner/weapon_spawner_menu.as</MenuItem>
 </Mod>
